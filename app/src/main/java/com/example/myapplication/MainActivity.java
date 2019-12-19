@@ -3,7 +3,6 @@ package com.example.myapplication;
 import org.jsoup.Connection;
 import org.jsoup.nodes.Document;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -49,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        System.out.println("CC");
 /*
         new Thread(new Runnable() {
             @Override
